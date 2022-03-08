@@ -1,0 +1,161 @@
+﻿CREATE TABLE Persone (
+cf char(16) PRIMARY KEY,
+nome varchar(50) NOT NULL,
+cognome varchar(50) NOT NULL,
+datanascita date NOT NULL
+);
+
+
+CREATE TABLE Responsabili (
+cf char(16) NOT NULL REFERENCES Persone (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(cf)
+);
+
+
+CREATE TABLE Istruttori (
+cf char(16) NOT NULL REFERENCES Persone (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+giorniferie decimal(3),
+CHECK(giorniferie>=0),
+PRIMARY KEY(cf)
+);
+
+
+CREATE TABLE Qualifiche (
+cf char(16) NOT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+tipologia varchar(50), 
+PRIMARY KEY(cf, tipologia)
+);
+
+
+CREATE TABLE Comuni (
+citta varchar(50) PRIMARY KEY
+);
+
+
+CREATE TABLE Piscine (
+nome varchar(30) PRIMARY KEY,
+citta varchar(50) NOT NULL REFERENCES Comuni (citta) ON UPDATE CASCADE ON DELETE CASCADE,
+via varchar(30) NOT NULL,
+civico decimal(3) NOT NULL,
+apertura varchar(30) NOT NULL, 
+chiusura varchar(30) NOT NULL,
+numeroVasche decimal(3) NOT NULL,
+CHECK(numeroVasche>0),
+UNIQUE(citta, via, civico)
+);
+
+
+CREATE TABLE Telefoni (
+numero decimal(10) PRIMARY KEY,
+istruttore char(16) DEFAULT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+piscina varchar(30) DEFAULT NULL REFERENCES Piscine (nome) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE Sostituzioni (
+titolare char(16) NOT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+sostituto char(16) NOT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+inizio date NOT NULL,
+fine date NOT NULL,
+PRIMARY KEY(titolare, sostituto, inizio),
+CHECK(inizio<=fine)
+);
+
+
+CREATE TABLE Impieghi (
+cf char(16) NOT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+piscina varchar(30) NOT NULL REFERENCES Piscine (nome) ON UPDATE CASCADE ON DELETE CASCADE,
+inizio date NOT NULL,
+fine date,
+CHECK(inizio<fine),
+PRIMARY KEY(inizio, cf, piscina)
+);
+
+
+CREATE TABLE Corsi (
+id numeric(10) PRIMARY KEY,
+tipologia varchar(50) NOT NULL,
+costo decimal(3) NOT NULL,
+max decimal(3) NOT NULL,
+min decimal(3) NOT NULL,
+livello decimal(1),
+corsia decimal(3),
+piscina varchar(30) NOT NULL REFERENCES Piscine (nome) ON UPDATE CASCADE ON DELETE CASCADE,
+CHECK(costo>0 AND livello<=3 AND livello>=1)
+);
+
+
+CREATE TABLE Edizioni (
+numero numeric(3) NOT NULL,
+datainizio date NOT NULL,
+corso decimal(10) NOT NULL REFERENCES Corsi (id) ON UPDATE CASCADE ON DELETE CASCADE,
+datafine date NOT NULL,
+ora char(5) NOT NULL,
+giorno char(10) NOT NULL,
+istruttore char(16) NOT NULL REFERENCES Istruttori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(numero, datainizio, corso),
+CHECK(dataInizio<dataFine AND numero>0),
+UNIQUE(datainizio, datafine, istruttore, numero)
+);
+
+
+CREATE TABLE Gestioni (
+responsabile char(16) NOT NULL REFERENCES Responsabili (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+giornoReperibilita varchar(10) NOT NULL,
+oraReperibilita char(5) NOT NULL,
+anno decimal(10) NOT NULL,
+piscina varchar(30) NOT NULL REFERENCES Piscine (nome) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(responsabile, piscina, anno)
+);
+
+
+CREATE TABLE Vasche (
+piscina varchar(30) NOT NULL REFERENCES Piscine (nome) ON UPDATE CASCADE ON DELETE CASCADE,
+tipologia varchar(30) NOT NULL,
+apertura varchar(30) NOT NULL,
+chiusura varchar(30) NOT NULL,
+corsie decimal(3),
+PRIMARY KEY(piscina, tipologia)
+);
+
+
+CREATE TABLE Iscritti (
+tessera decimal(10) PRIMARY KEY,
+cf char(16) NOT NULL REFERENCES Persone (cf) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE Iscrizioni (
+corso numeric(10) NOT NULL REFERENCES Corsi (id) ON UPDATE CASCADE ON DELETE CASCADE,
+iscritto decimal(10) NOT NULL REFERENCES Iscritti (tessera) ON UPDATE CASCADE ON DELETE CASCADE,
+data date NOT NULL,
+PRIMARY KEY(corso, iscritto, data)
+);
+
+
+CREATE TABLE Medici (
+cf char(16) NOT NULL REFERENCES Persone (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(cf)
+);
+
+
+CREATE TABLE Certificati (
+iscritto decimal(10) NOT NULL REFERENCES Iscritti (tessera) ON UPDATE CASCADE ON DELETE CASCADE,
+medico char(16) NOT NULL REFERENCES Medici (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+data date NOT NULL,
+PRIMARY KEY(iscritto, medico, data),
+CHECK(data<=current_date)
+);
+
+
+CREATE TABLE Genitori (
+cf char(16) NOT NULL REFERENCES Persone (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(cf)
+);
+
+
+CREATE TABLE Parentela (
+genitore char(16) NOT NULL REFERENCES Genitori (cf) ON UPDATE CASCADE ON DELETE CASCADE,
+figlio decimal(10) NOT NULL REFERENCES Iscritti (tessera) ON UPDATE CASCADE ON DELETE CASCADE,
+PRIMARY KEY(genitore, figlio)
+);

@@ -1,0 +1,521 @@
+﻿--
+-- Data for Name: persone; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Persone VALUES ('FBRRRT10M17F205Q', 'Roberto', 'Fabrizi', '2010-08-17'); 
+INSERT INTO Persone VALUES ('GLIMHL10P50F205I', 'Giulia', 'Micheli', '2010-09-10'); 
+INSERT INTO Persone VALUES ('MNNMRA80P48F205J', 'Maria', 'Manna', '1980-09-08'); 
+INSERT INTO Persone VALUES ('FRRCLD94S50F205J', 'Claudia', 'Ferrari', '1994-11-10'); 
+INSERT INTO Persone VALUES ('NDRPLA87S14F205R', 'Paolo', 'Andreata', '1987-11-14'); 
+INSERT INTO Persone VALUES ('LSSGAI03A01F205Z', 'Gaia', 'Alessi', '2003-01-01'); 
+INSERT INTO Persone VALUES ('GRDNNA72H58D086D', 'Anna', 'Giordano', '1972-06-18'); 
+INSERT INTO Persone VALUES ('MRRGNN67T06F205A', 'Giovanni', 'Marra', '1967-12-06'); 
+INSERT INTO Persone VALUES ('CVTFNC80S01F205R', 'Franco', 'Civetta', '1980-11-01'); 
+INSERT INTO Persone VALUES ('DNSLCU98L21F205W', 'Lucio', 'Udinesi', '1998-07-21'); 
+INSERT INTO Persone VALUES ('MRNRRT65T02F205F', 'Roberto', 'Marino', '1965-12-02'); 
+INSERT INTO Persone VALUES ('PGNMRN73E16F205A', 'Marina', 'Pagnotto', '1973-05-16'); 
+INSERT INTO Persone VALUES ('GRDMLA69H45F205G', 'Amalia', 'Giordano', '1969-06-05'); 
+INSERT INTO Persone VALUES ('LCCRME59R11F205A', 'Remo', 'Lucchese', '1959-10-11'); 
+INSERT INTO Persone VALUES ('SGSLSE62T23F205Q', 'Elsa', 'Sagese', '1962-12-23'); 
+INSERT INTO Persone VALUES ('CLBLVC97T24F205L', 'Lodovico', 'Calabrese', '1997-12-24'); 
+INSERT INTO Persone VALUES ('PLRPLA95A08F205G', 'Paola', 'Palermo', '1995-01-08'); 
+INSERT INTO Persone VALUES ('PDVNLN94D04F205G', 'Natalina', 'Padovesi', '1994-04-04'); 
+INSERT INTO Persone VALUES ('BLLFBR68E11F205P', 'Filiberto', 'Bellucci', '1968-05-11'); 
+INSERT INTO Persone VALUES ('DLLLVI96D46F205X', 'Livia', 'Dellucci', '1996-04-06'); 
+INSERT INTO Persone VALUES ('MLNCCT57E59F205X', 'Concetta', 'Milanesi', '1957-05-19'); 
+INSERT INTO Persone VALUES ('CSTLNS83S13F205V', 'Alfonso', 'Costa', '1983-11-13'); 
+INSERT INTO Persone VALUES ('MRNMLL74C31F205E', 'Mirella', 'Marino', '1974-03-31'); 
+INSERT INTO Persone VALUES ('RSSMRO95T59F205X', 'Omero', 'Russo', '1995-12-19'); 
+INSERT INTO Persone VALUES ('CNTVRN80T31F205D', 'Veneranda', 'Conti', '1980-12-31');
+INSERT INTO Persone VALUES ('TRVRSL55M55F205C', 'Rosalia', 'Trevisan', '1955-08-15'); 
+INSERT INTO Persone VALUES ('MNLVND74P05F205J', 'Violanda', 'Monaldo', '1974-09-05'); 
+INSERT INTO Persone VALUES ('CCCGGR50B09F205D', 'Gregorio', 'Cocci', '1950-02-09'); 
+INSERT INTO Persone VALUES ('PGLCLL87D11F205J', 'Cirilla', 'Pugliesi', '1987-04-11'); 
+INSERT INTO Persone VALUES ('MZZFSC64P49F205Z', 'Fosca', 'Mazzanti', '1964-09-09'); 
+INSERT INTO Persone VALUES ('CTTMLA74B60F205B', 'Amelia', 'Cattaneo', '1974-02-20'); 
+INSERT INTO Persone VALUES ('DNZMRZ93H23F205F', 'Maurizia', 'Iadanza', '1993-06-23'); 
+INSERT INTO Persone VALUES ('DRMPLA95A08F205G', 'Paola', 'Demarco', '1995-01-08'); 
+INSERT INTO Persone VALUES ('TRNBNC00R23F205L', 'Bianca', 'Trentini', '2000-10-23'); 
+INSERT INTO Persone VALUES ('FRRLLL58T51F205X', 'Lilla', 'Ferrari', '1958-12-11'); 
+INSERT INTO Persone VALUES ('LCCCST74P57F205F', 'Cristina', 'Lucchesi', '1974-09-17'); 
+INSERT INTO Persone VALUES ('CTTSLV04R20F205Q', 'Silvio', 'Cattaneo', '2004-10-20'); 
+INSERT INTO Persone VALUES ('TRNLSS04H30D086P', 'Alessio', 'Trentino', '2004-06-30'); 
+INSERT INTO Persone VALUES ('CPPLRZ05A43F205E', 'Lucrezia', 'Cappa', '2005-01-30'); 
+INSERT INTO Persone VALUES ('NGRLNE06A59F205W', 'Elena', 'Ingrao', '2006-01-19'); 
+INSERT INTO Persone VALUES ('FRRLRI86M27F205C', 'Ilario', 'Ferraro', '1986-08-27'); 
+INSERT INTO Persone VALUES ('VLNFNC99L47D086U', 'Francesca', 'Valente', '1999-07-07'); 
+INSERT INTO Persone VALUES ('FRRNDR07R18F205E', 'Andrea', 'Ferro', '2007-10-18'); 
+INSERT INTO Persone VALUES ('LRLRNI06L41F205E', 'Irina', 'Lorelli', '2006-07-01'); 
+INSERT INTO Persone VALUES ('MDLMRC00P09F205R', 'Marco', 'Midilli', '2000-09-09'); 
+INSERT INTO Persone VALUES ('LLARNN86P51F205S', 'Arianna', 'Aiello', '1986-09-11'); 
+INSERT INTO Persone VALUES ('FSTMSM80H19D086K', 'Massimo', 'Festa', '1980-06-19'); 
+INSERT INTO Persone VALUES ('BRNLTR97A47F205C', 'Elettra', 'Baroni', '1997-01-07'); 
+INSERT INTO Persone VALUES ('PLMLNE93H59D086K', 'Elena', 'Palmieri', '1993-06-19'); 
+INSERT INTO Persone VALUES ('PLLGRG80L31F205Q', 'Giorgio', 'Palla', '1980-07-31'); 
+INSERT INTO Persone VALUES ('MNNMSS92S55F205S', 'Melissa', 'Manna', '1992-11-15'); 
+INSERT INTO Persone VALUES ('FBBMTN89P61F205R', 'Martina', 'Fabbricatore', '1989-09-21'); 
+INSERT INTO Persone VALUES ('FRLLNR80L57F205D', 'Eleonora', 'Frollo', '1980-07-17');
+INSERT INTO Persone VALUES ('FRRMTT98S01D086X', 'Matteo', 'Ferrari', '1998-11-01');
+INSERT INTO Persone VALUES ('CFNRSR85H57F205G', 'Rosaria', 'Cofone', '1985-06-17'); 
+
+
+--
+-- Data for Name: responsabili; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Responsabili VALUES ('MNNMRA80P48F205J');
+INSERT INTO Responsabili VALUES ('CFNRSR85H57F205G');
+INSERT INTO Responsabili VALUES ('VLNFNC99L47D086U');
+INSERT INTO Responsabili VALUES ('FRRLLL58T51F205X');
+INSERT INTO Responsabili VALUES ('RSSMRO95T59F205X');
+INSERT INTO Responsabili VALUES ('CVTFNC80S01F205R');
+INSERT INTO Responsabili VALUES ('GRDNNA72H58D086D');
+INSERT INTO Responsabili VALUES ('LLARNN86P51F205S');
+INSERT INTO Responsabili VALUES ('MLNCCT57E59F205X');
+INSERT INTO Responsabili VALUES ('GRDMLA69H45F205G');
+
+
+--
+-- Data for Name: istruttori; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Istruttori VALUES ('FRRCLD94S50F205J', 4);
+INSERT INTO Istruttori VALUES ('NDRPLA87S14F205R', 5);
+INSERT INTO Istruttori VALUES ('LSSGAI03A01F205Z', NULL);
+INSERT INTO Istruttori VALUES ('MRRGNN67T06F205A', 10);
+INSERT INTO Istruttori VALUES ('DNSLCU98L21F205W', 7);
+INSERT INTO Istruttori VALUES ('MRNRRT65T02F205F', 8);
+INSERT INTO Istruttori VALUES ('PGNMRN73E16F205A', 12);
+INSERT INTO Istruttori VALUES ('LCCRME59R11F205A', NULL);
+INSERT INTO Istruttori VALUES ('SGSLSE62T23F205Q', 7);
+INSERT INTO Istruttori VALUES ('CLBLVC97T24F205L', 7);
+INSERT INTO Istruttori VALUES ('DRMPLA95A08F205G', 18);
+INSERT INTO Istruttori VALUES ('PDVNLN94D04F205G', NULL);
+INSERT INTO Istruttori VALUES ('BLLFBR68E11F205P', 9);
+INSERT INTO Istruttori VALUES ('DLLLVI96D46F205X', 16);
+INSERT INTO Istruttori VALUES ('CSTLNS83S13F205V', 5);
+
+
+--
+-- Data for Name: qualifiche; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Qualifiche VALUES ('FRRCLD94S50F205J', 'base');
+INSERT INTO Qualifiche VALUES ('NDRPLA87S14F205R', 'base');
+INSERT INTO Qualifiche VALUES ('LSSGAI03A01F205Z', 'base');
+INSERT INTO Qualifiche VALUES ('NDRPLA87S14F205R', 'pallanuoto');
+INSERT INTO Qualifiche VALUES ('MRRGNN67T06F205A', 'pallanuoto');
+INSERT INTO Qualifiche VALUES ('DNSLCU98L21F205W', 'pallanuoto');
+INSERT INTO Qualifiche VALUES ('PGNMRN73E16F205A', 'pallanuoto');
+INSERT INTO Qualifiche VALUES ('MRRGNN67T06F205A', 'sincronizzato');
+INSERT INTO Qualifiche VALUES ('CLBLVC97T24F205L', 'sincronizzato');
+INSERT INTO Qualifiche VALUES ('DRMPLA95A08F205G', 'sincronizzato');
+INSERT INTO Qualifiche VALUES ('PDVNLN94D04F205G', 'sincronizzato');
+INSERT INTO Qualifiche VALUES ('BLLFBR68E11F205P', 'sincronizzato');
+INSERT INTO Qualifiche VALUES ('PDVNLN94D04F205G', 'tuffi');
+INSERT INTO Qualifiche VALUES ('DLLLVI96D46F205X', 'tuffi');
+INSERT INTO Qualifiche VALUES ('CSTLNS83S13F205V', 'tuffi');
+INSERT INTO Qualifiche VALUES ('SGSLSE62T23F205Q', 'tuffi');
+INSERT INTO Qualifiche VALUES ('MRNRRT65T02F205F', 'base');
+INSERT INTO Qualifiche VALUES ('LCCRME59R11F205A', 'base');
+INSERT INTO Qualifiche VALUES ('SGSLSE62T23F205Q', 'base');
+
+
+--
+-- Data for Name: comuni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Comuni VALUES ('Milano');
+INSERT INTO Comuni VALUES ('Monza');
+INSERT INTO Comuni VALUES ('Roma');
+INSERT INTO Comuni VALUES ('Verona');
+
+
+--
+-- Data for Name: piscine; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Piscine VALUES ('Delfino', 'Milano', 'Corso Colombo', 34, 'Settembre', 'Giugno', 3);
+INSERT INTO Piscine VALUES ('Pandora', 'Milano', 'Corso Garibaldi', 12, 'Giugno', 'Agosto', 5);
+INSERT INTO Piscine VALUES ('Marea', 'Milano', 'Corso Magenta', 09, 'Settembre', 'Luglio', 4);
+INSERT INTO Piscine VALUES ('Atlante', 'Milano', 'Via Arona', 178, 'Ottobre', 'Luglio', 3);
+INSERT INTO Piscine VALUES ('Sea', 'Milano', 'Via Arona', 23, 'Maggio', 'Dicembre', 3);
+INSERT INTO Piscine VALUES ('Galaxy', 'Milano', 'Via Belgirate', 56, 'Dicembre', 'Agosto', 4);
+INSERT INTO Piscine VALUES ('Luce', 'Roma', 'Via Anagnina', 100, 'Settembre', 'Giugno', 2);
+INSERT INTO Piscine VALUES ('Gea', 'Roma', 'Viale Aventino', 124, 'Settembre', 'Giugno', 2);
+INSERT INTO Piscine VALUES ('Sol', 'Roma', 'Via dei Cerchi', 132, 'Giugno', 'Agosto', 2);
+INSERT INTO Piscine VALUES ('Allegria', 'Roma', 'Via Frascati', 30, 'Settembre', 'Giugno', 2);
+INSERT INTO Piscine VALUES ('Tuffo', 'Roma', 'Corso di Francia', 17, 'Settembre', 'Giugno', 2);
+INSERT INTO Piscine VALUES ('Navy', 'Monza', 'Via Felice Cavallotti', 38, 'Giugno', 'Agosto', 2);
+INSERT INTO Piscine VALUES ('Splash', 'Monza', 'Via Volturno', 97, 'Settembre', 'Luglio', 3);
+INSERT INTO Piscine VALUES ('Blue', 'Verona', 'Piazza delle Erbe', 44, 'Settembre', 'Luglio', 3);
+INSERT INTO Piscine VALUES ('Cristallino', 'Verona', 'Piazza Brà', 76, 'Settembre', 'Luglio', 2);
+INSERT INTO Piscine VALUES ('Sole', 'Verona', 'Via San Paolo', 18, 'Settembre', 'Luglio', 2);
+
+
+--
+-- Data for Name: telefoni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Telefoni(numero, istruttore) VALUES (3209837265, 'FRRCLD94S50F205J');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3387582055, 'NDRPLA87S14F205R');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3942894957, 'LSSGAI03A01F205Z');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3376070372, 'MRRGNN67T06F205A');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3284649207, 'DNSLCU98L21F205W');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3975025860, 'MRNRRT65T02F205F');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3783486038, 'PGNMRN73E16F205A');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3726496729, 'LCCRME59R11F205A');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3835589206, 'LCCRME59R11F205A');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3305826592, 'SGSLSE62T23F205Q');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3907467294, 'CLBLVC97T24F205L');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3984762896, 'DRMPLA95A08F205G');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3987367894, 'PDVNLN94D04F205G');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3098766789, 'BLLFBR68E11F205P');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3234567899, 'DLLLVI96D46F205X');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3864790654, 'CSTLNS83S13F205V');
+INSERT INTO Telefoni(numero, istruttore) VALUES (3465296735, 'CSTLNS83S13F205V');
+INSERT INTO Telefoni(numero, piscina) VALUES (3245673246, 'Delfino');
+INSERT INTO Telefoni(numero, piscina) VALUES (3987656738, 'Pandora');
+INSERT INTO Telefoni(numero, piscina) VALUES (3446543256, 'Marea');
+INSERT INTO Telefoni(numero, piscina) VALUES (3735592650, 'Marea');
+INSERT INTO Telefoni(numero, piscina) VALUES (3353256735, 'Atlante');
+INSERT INTO Telefoni(numero, piscina) VALUES (3462367272, 'Sea');
+INSERT INTO Telefoni(numero, piscina) VALUES (3643257273, 'Galaxy');
+INSERT INTO Telefoni(numero, piscina) VALUES (3976537362, 'Luce');
+INSERT INTO Telefoni(numero, piscina) VALUES (3245729364, 'Gea');
+INSERT INTO Telefoni(numero, piscina) VALUES (3876543456, 'Sol');
+INSERT INTO Telefoni(numero, piscina) VALUES (3876456735, 'Allegria');
+INSERT INTO Telefoni(numero, piscina) VALUES (3986537956, 'Tuffo');
+INSERT INTO Telefoni(numero, piscina) VALUES (3398764783, 'Navy');
+INSERT INTO Telefoni(numero, piscina) VALUES (3987654567, 'Navy');
+INSERT INTO Telefoni(numero, piscina) VALUES (339874688, 'Navy');
+INSERT INTO Telefoni(numero, piscina) VALUES (3989743679, 'Splash');
+INSERT INTO Telefoni(numero, piscina) VALUES (3376098539, 'Blue');
+INSERT INTO Telefoni(numero, piscina) VALUES (3643673635, 'Cristallino');
+INSERT INTO Telefoni(numero, piscina) VALUES (3385689469, 'Sole');
+
+
+--
+-- Data for Name: sostituzioni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Sostituzioni VALUES ('FRRCLD94S50F205J', 'NDRPLA87S14F205R', '2020-12-30', '2021-01-30');
+INSERT INTO Sostituzioni VALUES ('FRRCLD94S50F205J', 'LSSGAI03A01F205Z', '2019-09-12', '2020-04-10');
+INSERT INTO Sostituzioni VALUES ('LSSGAI03A01F205Z', 'NDRPLA87S14F205R', '2020-12-30', '2021-01-30');
+INSERT INTO Sostituzioni VALUES ('NDRPLA87S14F205R', 'MRRGNN67T06F205A', '2021-03-04', '2021-05-06');
+INSERT INTO Sostituzioni VALUES ('MRRGNN67T06F205A', 'DNSLCU98L21F205W', '2019-09-08', '2019-11-09');
+INSERT INTO Sostituzioni VALUES ('DNSLCU98L21F205W', 'MRNRRT65T02F205F', '2020-09-10', '2021-01-02');
+INSERT INTO Sostituzioni VALUES ('DNSLCU98L21F205W', 'PGNMRN73E16F205A', '2021-02-09', '2021-03-09');
+INSERT INTO Sostituzioni VALUES ('DNSLCU98L21F205W', 'PGNMRN73E16F205A', '2021-01-01', '2021-02-01');
+INSERT INTO Sostituzioni VALUES ('MRNRRT65T02F205F', 'DNSLCU98L21F205W', '2018-09-08', '2019-01-01');
+INSERT INTO Sostituzioni VALUES ('PGNMRN73E16F205A', 'LCCRME59R11F205A', '2019-05-05', '2019-07-06');
+INSERT INTO Sostituzioni VALUES ('PGNMRN73E16F205A', 'LCCRME59R11F205A', '2020-05-08', '2020-10-09');
+INSERT INTO Sostituzioni VALUES ('CLBLVC97T24F205L', 'DRMPLA95A08F205G', '2021-05-06', '2021-06-06');
+INSERT INTO Sostituzioni VALUES ('DRMPLA95A08F205G', 'PDVNLN94D04F205G', '2019-09-03', '2020-01-20');
+INSERT INTO Sostituzioni VALUES ('DRMPLA95A08F205G', 'PDVNLN94D04F205G', '2020-09-02', '2020-10-09');
+INSERT INTO Sostituzioni VALUES ('DRMPLA95A08F205G', 'BLLFBR68E11F205P', '2021-03-10', '2021-04-10');
+INSERT INTO Sostituzioni VALUES ('PDVNLN94D04F205G', 'BLLFBR68E11F205P', '2020-11-12', '2021-12-01');
+
+
+--
+-- Data for Name: impieghi; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Impieghi VALUES ('FRRCLD94S50F205J', 'Delfino', '2021-02-03', '2021-10-20');
+INSERT INTO Impieghi VALUES ('FRRCLD94S50F205J', 'Splash', '2015-09-09', '2016-09-09');
+INSERT INTO Impieghi VALUES ('FRRCLD94S50F205J', 'Pandora', '2013-07-08', '2013-09-09');
+INSERT INTO Impieghi VALUES ('FRRCLD94S50F205J', 'Gea', '2020-06-17', '2020-09-17');
+INSERT INTO Impieghi VALUES ('NDRPLA87S14F205R', 'Delfino', '2021-04-03', '2021-12-30');
+INSERT INTO Impieghi VALUES ('NDRPLA87S14F205R', 'Delfino', '2011-05-03', '2012-10-20');
+INSERT INTO Impieghi VALUES ('NDRPLA87S14F205R', 'Gea', '2017-12-08', '2018-05-09');
+INSERT INTO Impieghi VALUES ('LSSGAI03A01F205Z', 'Sol', '2017-12-08', '2018-01-19');
+INSERT INTO Impieghi VALUES ('MRRGNN67T06F205A', 'Allegria', '2018-10-23', '2019-05-06');
+INSERT INTO Impieghi VALUES ('DNSLCU98L21F205W', 'Tuffo', '2020-11-13', '2021-05-08');
+INSERT INTO Impieghi VALUES ('MRNRRT65T02F205F', 'Navy', '2015-06-17', '2017-05-09');
+INSERT INTO Impieghi VALUES ('MRNRRT65T02F205F', 'Navy', '2017-06-07', '2017-12-12');
+INSERT INTO Impieghi VALUES ('MRNRRT65T02F205F', 'Splash', '2011-12-07', '2012-05-03');
+INSERT INTO Impieghi VALUES ('MRNRRT65T02F205F', 'Marea', '2020-10-03', '2021-05-20');
+INSERT INTO Impieghi VALUES ('PGNMRN73E16F205A', 'Marea', '2012-06-07', '2013-05-09');
+INSERT INTO Impieghi VALUES ('LCCRME59R11F205A', 'Atlante', '2015-06-07', '2018-03-19');
+INSERT INTO Impieghi VALUES ('SGSLSE62T23F205Q', 'Galaxy', '2020-06-07', '2021-05-09');
+INSERT INTO Impieghi VALUES ('SGSLSE62T23F205Q', 'Blue', '2020-01-01', '2020-02-28');
+INSERT INTO Impieghi VALUES ('SGSLSE62T23F205Q', 'Cristallino', '2016-03-23', '2017-12-09');
+INSERT INTO Impieghi VALUES ('SGSLSE62T23F205Q', 'Blue', '2015-04-17', '2017-11-19');
+INSERT INTO Impieghi VALUES ('SGSLSE62T23F205Q', 'Marea', '2021-06-07', '2022-05-09');
+INSERT INTO Impieghi VALUES ('CLBLVC97T24F205L', 'Sole', '2011-04-17', '2012-11-19');
+INSERT INTO Impieghi VALUES ('CLBLVC97T24F205L', 'Sea', '2018-04-17', '2019-11-19');
+INSERT INTO Impieghi VALUES ('CLBLVC97T24F205L', 'Sol', '2015-04-17', '2017-11-19');
+INSERT INTO Impieghi VALUES ('CLBLVC97T24F205L', 'Navy', '2021-06-07', '2022-05-09');
+INSERT INTO Impieghi VALUES ('CLBLVC97T24F205L', 'Splash', '2016-03-23', '2017-12-09');
+INSERT INTO Impieghi VALUES ('DRMPLA95A08F205G', 'Allegria', '2020-12-28', '2021-06-19');
+INSERT INTO Impieghi VALUES ('PDVNLN94D04F205G', 'Sole', '2020-03-23', '2021-07-08');
+INSERT INTO Impieghi VALUES ('BLLFBR68E11F205P', 'Cristallino', '2020-04-13', '2021-02-09');
+INSERT INTO Impieghi VALUES ('DLLLVI96D46F205X', 'Blue', '2020-01-03', '2021-01-19');
+INSERT INTO Impieghi VALUES ('CSTLNS83S13F205V', 'Navy', '2020-04-12', '2021-04-15');
+
+
+--
+-- Data for Name: corsi; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Corsi VALUES (09037, 'baby', 120, 40, 2, 1, NULL, 'Delfino');
+INSERT INTO Corsi VALUES (03456, 'ragazzi', 120, 30, 2, 1, 3, 'Splash');
+INSERT INTO Corsi VALUES (23563, 'olimpionico', 170, 20, 5, NULL, 4, 'Pandora');
+INSERT INTO Corsi VALUES (75367, 'adulti', 100, 30, 5, 3, 5, 'Marea');
+INSERT INTO Corsi VALUES (36737, 'baby', 110, 20, 8, 1, NULL, 'Atlante');
+INSERT INTO Corsi VALUES (48954, 'tuffi', 120, 40, 3, NULL, 5, 'Sea');
+INSERT INTO Corsi VALUES (07472, 'sincronizzato', 140, 30, 5, NULL, 2, 'Galaxy');
+INSERT INTO Corsi VALUES (98466, 'tuffi', 120, 30, 5, NULL, 5, 'Luce');
+INSERT INTO Corsi VALUES (77835, 'sincronizzato', 140, 50, 2, NULL, 2, 'Gea');
+INSERT INTO Corsi VALUES (69867, 'baby', 120, 45, 2, 1, NULL, 'Sol');
+INSERT INTO Corsi VALUES (58723, 'ragazzi', 100, 20, 2, 2, 5, 'Allegria');
+INSERT INTO Corsi VALUES (74786, 'adulti', 120, 10, 2, 1, 6, 'Tuffo');
+INSERT INTO Corsi VALUES (59366, 'sincronizzato', 140, 30, 5, NULL, NULL, 'Navy');
+INSERT INTO Corsi VALUES (75736, 'baby', 110, 30, 2, 1, NULL, 'Navy');
+INSERT INTO Corsi VALUES (74746, 'baby', 110, 30, 2, 3, NULL, 'Splash');
+INSERT INTO Corsi VALUES (89367, 'baby', 110, 30, 2, 2, NULL, 'Delfino');
+INSERT INTO Corsi VALUES (79830, 'neonatale', 100, 50, 5, NULL, NULL, 'Blue');
+INSERT INTO Corsi VALUES (46769, 'neonatale', 100, 50, 5, NULL, NULL, 'Cristallino');
+INSERT INTO Corsi VALUES (56894, 'pallanuoto', 120, 40, 2, NULL, 5, 'Sole');
+INSERT INTO Corsi VALUES (70466, 'pallanuoto', 120, 40, 2, NULL, 6, 'Blue');
+INSERT INTO Corsi VALUES (69366, 'sincronizzato', 140, 50, 5, NULL, NULL, 'Delfino');
+INSERT INTO Corsi VALUES (79376, 'baby', 120, 30, 5, 3, NULL, 'Delfino');
+INSERT INTO Corsi VALUES (67902, 'olimpionico', 170, 50, 10, 1, 7, 'Navy');
+INSERT INTO Corsi VALUES (69035, 'olimpionico', 170, 50, 10, 1, 8, 'Galaxy');
+INSERT INTO Corsi VALUES (79366, 'ragazzi', 120, 50, 2, 3, 2, 'Gea');
+INSERT INTO Corsi VALUES (40674, 'baby', 110, 10, 2, 1, NULL, 'Blue');
+INSERT INTO Corsi VALUES (79476, 'adulti', 120, 50, 5, 1, 6, 'Navy');
+INSERT INTO Corsi VALUES (06837, 'adulti', 120, 50, 10, 3, 5, 'Splash');
+INSERT INTO Corsi VALUES (07830, 'adulti', 120, 50, 5, 2, 4, 'Sol');
+
+
+--
+-- Data for Name: edizioni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 09037, '2021-06-18', '15:00', 'Martedì', 'FRRCLD94S50F205J');
+INSERT INTO Edizioni VALUES (2, '2020-09-18', 09037, '2021-06-18', '18:00', 'Martedì', 'FRRCLD94S50F205J');
+INSERT INTO Edizioni VALUES (3, '2020-09-18', 09037, '2021-06-18', '15:00', 'Giovedì', 'FRRCLD94S50F205J');
+INSERT INTO Edizioni VALUES (1, '2020-09-19', 03456, '2021-07-18', '15:00', 'Martedì', 'NDRPLA87S14F205R');
+INSERT INTO Edizioni VALUES (2, '2020-09-19', 03456, '2021-07-18', '17:00', 'Martedì', 'NDRPLA87S14F205R');
+INSERT INTO Edizioni VALUES (3, '2020-09-19', 03456, '2021-07-18', '17:00', 'Mercoledì', 'NDRPLA87S14F205R');
+INSERT INTO Edizioni VALUES (1, '2021-06-12', 23563, '2021-07-12', '15:00', 'Giovedì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (2, '2021-06-12', 23563, '2021-07-12', '15:00', 'Martedì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (3, '2021-06-12', 23563, '2021-07-12', '18:00', 'Sabato', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (1, '2020-10-30', 07830, '2021-07-17', '12:00', 'Lunedì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (2, '2020-10-30', 07830, '2021-07-17', '12:00', 'Mercoledì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (3, '2020-10-30', 07830, '2021-07-17', '12:00', 'Venerdì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (4, '2020-10-30', 07830, '2021-07-17', '16:00', 'Lunedì', 'LSSGAI03A01F205Z');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 36737, '2021-06-18', '13:00', 'Martedì', 'MRRGNN67T06F205A');
+INSERT INTO Edizioni VALUES (2, '2020-09-18', 36737, '2021-06-18', '15:00', 'Sabato', 'MRRGNN67T06F205A');
+INSERT INTO Edizioni VALUES (1, '2021-06-01', 48954, '2021-11-28', '15:00', 'Lunedì', 'DNSLCU98L21F205W');
+INSERT INTO Edizioni VALUES (2, '2021-06-01', 48954, '2021-11-28', '17:00', 'Martedì', 'DNSLCU98L21F205W');
+INSERT INTO Edizioni VALUES (1, '2020-12-10', 07472, '2021-08-10', '18:00', 'Sabato', 'MRNRRT65T02F205F');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 98466, '2021-06-18', '15:00', 'Lunedì', 'MRNRRT65T02F205F');
+INSERT INTO Edizioni VALUES (2, '2020-09-18', 98466, '2021-06-18', '18:00', 'Lunedì', 'MRNRRT65T02F205F');
+INSERT INTO Edizioni VALUES (1, '2020-09-10', 77835, '2021-06-10', '15:00', 'Giovedì', 'PGNMRN73E16F205A');
+INSERT INTO Edizioni VALUES (1, '2021-06-18', 69867, '2021-08-18', '15:00', 'Lunedì', 'PGNMRN73E16F205A');
+INSERT INTO Edizioni VALUES (1, '2020-09-01', 58723, '2021-06-30', '14:00', 'Sabato', 'LCCRME59R11F205A');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 74786, '2021-07-18', '17:00', 'Giovedì', 'LCCRME59R11F205A');
+INSERT INTO Edizioni VALUES (1, '2021-06-01', 75736, '2021-08-30', '15:00', 'Martedì', 'LCCRME59R11F205A');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 89367, '2021-06-18', '14:00', 'Mercoledì', 'SGSLSE62T23F205Q');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 79830, '2021-07-18', '15:00', 'Venerdì', 'SGSLSE62T23F205Q');
+INSERT INTO Edizioni VALUES (2, '2020-09-18', 79830, '2021-07-18', '15:00', 'Martedì', 'SGSLSE62T23F205Q');
+INSERT INTO Edizioni VALUES (1, '2020-09-01', 46769, '2021-07-31', '15:00', 'Martedì', 'CLBLVC97T24F205L');
+INSERT INTO Edizioni VALUES (2, '2020-09-01', 46769, '2021-07-31', '15:00', 'Venerdì', 'CLBLVC97T24F205L');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 56894, '2021-06-18', '15:00', 'Mercoledì', 'CLBLVC97T24F205L');
+INSERT INTO Edizioni VALUES (2, '2020-09-18', 56894, '2021-06-18', '15:00', 'Mercoledì', 'CLBLVC97T24F205L');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 70466, '2021-07-18', '15:00', 'Giovedì', 'DRMPLA95A08F205G');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 69366, '2021-06-18', '17:00', 'Martedì', 'DRMPLA95A08F205G');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 79376, '2021-06-18', '15:00', 'Sabato', 'PDVNLN94D04F205G');
+INSERT INTO Edizioni VALUES (1, '2021-06-10', 67902, '2021-08-30', '14:00', 'Venerdì', 'PDVNLN94D04F205G');
+INSERT INTO Edizioni VALUES (1, '2020-12-01', 69035, '2021-08-30', '12:00', 'Mercoledì', 'PDVNLN94D04F205G');
+INSERT INTO Edizioni VALUES (1, '2020-09-01', 79366, '2021-06-30', '18:00', 'Martedì', 'BLLFBR68E11F205P');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 40674, '2021-07-30', '15:00', 'Sabato', 'BLLFBR68E11F205P');
+INSERT INTO Edizioni VALUES (1, '2021-06-01', 79476, '2021-08-30', '16:00', 'Martedì', 'DLLLVI96D46F205X');
+INSERT INTO Edizioni VALUES (1, '2020-09-18', 06837, '2021-06-18', '15:00', 'Venerdì', 'DLLLVI96D46F205X');
+INSERT INTO Edizioni VALUES (1, '2021-06-10', 59366, '2021-08-10', '15:00', 'Mercoledì', 'CSTLNS83S13F205V');
+
+
+--
+-- Data for Name: gestioni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Gestioni VALUES ('MNNMRA80P48F205J', 'Lunedì', '19:00', '2021', 'Delfino');
+INSERT INTO Gestioni VALUES ('MNNMRA80P48F205J', 'Sabato', '17:00', '2018', 'Delfino');
+INSERT INTO Gestioni VALUES ('CFNRSR85H57F205G', 'Martedì', '15:00', '2021', 'Pandora');
+INSERT INTO Gestioni VALUES ('CFNRSR85H57F205G', 'Giovedì', '18:00', '2019', 'Delfino');
+INSERT INTO Gestioni VALUES ('VLNFNC99L47D086U', 'Lunedì', '14:00', '2020', 'Galaxy');
+INSERT INTO Gestioni VALUES ('VLNFNC99L47D086U', 'Sabato', '20:00', '2021', 'Marea');
+INSERT INTO Gestioni VALUES ('VLNFNC99L47D086U', 'Venerdì', '12:00', '2020', 'Sea');
+INSERT INTO Gestioni VALUES ('FRRLLL58T51F205X', 'Lunedì', '10:00', '2018', 'Cristallino');
+INSERT INTO Gestioni VALUES ('FRRLLL58T51F205X', 'Giovedì', '14:00', '2017', 'Atlante');
+INSERT INTO Gestioni VALUES ('RSSMRO95T59F205X', 'Sabato', '12:00', '2020', 'Luce');
+INSERT INTO Gestioni VALUES ('RSSMRO95T59F205X', 'Lunedì', '19:00', '2019', 'Delfino');
+INSERT INTO Gestioni VALUES ('RSSMRO95T59F205X', 'Martedì', '13:00', '2018', 'Gea');
+INSERT INTO Gestioni VALUES ('CVTFNC80S01F205R', 'Giovedì', '12:00', '2021', 'Sol');
+INSERT INTO Gestioni VALUES ('CVTFNC80S01F205R', 'Sabato', '10:00', '2019', 'Allegria');
+INSERT INTO Gestioni VALUES ('CVTFNC80S01F205R', 'Martedì', '20:00', '2020', 'Tuffo');
+INSERT INTO Gestioni VALUES ('GRDNNA72H58D086D', 'Lunedì', '12:00', '2021', 'Navy');
+INSERT INTO Gestioni VALUES ('GRDNNA72H58D086D', 'Venerdì', '18:00', '2021', 'Splash');
+INSERT INTO Gestioni VALUES ('LLARNN86P51F205S', 'Sabato', '20:00', '2018', 'Pandora');
+INSERT INTO Gestioni VALUES ('LLARNN86P51F205S', 'Giovedì', '15:00', '2017', 'Delfino');
+INSERT INTO Gestioni VALUES ('LLARNN86P51F205S', 'Mercoledì', '17:00', '2020', 'Blue');
+INSERT INTO Gestioni VALUES ('MLNCCT57E59F205X', 'Martedì', '12:00', '2021', 'Sole');
+INSERT INTO Gestioni VALUES ('MLNCCT57E59F205X', 'Sabato', '13:00', '2019', 'Sea');
+INSERT INTO Gestioni VALUES ('GRDMLA69H45F205G', 'Lunedì', '17:00', '2020', 'Marea');
+INSERT INTO Gestioni VALUES ('GRDMLA69H45F205G', 'Venerdì', '11:00', '2020', 'Atlante');
+
+
+--
+-- Data for Name: vasche; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Vasche VALUES ('Delfino', 'all’aperto', 'Settembre', 'Giugno', 3);
+INSERT INTO Vasche VALUES ('Delfino', 'al chiuso', 'Settembre', 'Giugno', 2);
+INSERT INTO Vasche VALUES ('Delfino', 'olimpionica', 'Settembre', 'Giugno', 3);
+INSERT INTO Vasche VALUES ('Pandora', 'all’aperto', 'Giugno', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Pandora', 'al chiuso', 'Giugno', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Pandora', 'olimpionica', 'Giugno', 'Agosto', 3);
+INSERT INTO Vasche VALUES ('Pandora', 'nuoto baby', 'Giugno', 'Agosto', 2);
+INSERT INTO Vasche VALUES ('Pandora', 'neonatale', 'Giugno', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Marea', 'olimpionica', 'Settembre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Marea', 'all’aperto', 'Settembre', 'Luglio', 2);
+INSERT INTO Vasche VALUES ('Marea', 'al chiuso', 'Settembre', 'Luglio', 3);
+INSERT INTO Vasche VALUES ('Marea', 'nuoto baby', 'Settembre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Atlante', 'olimpionica', 'Ottobre', 'Luglio', 3);
+INSERT INTO Vasche VALUES ('Atlante', 'nuoto baby', 'Ottobre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Atlante', 'neonatale', 'Ottobre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Sea', 'all’aperto', 'Maggio', 'Ottobre', 5);
+INSERT INTO Vasche VALUES ('Sea', 'nuoto baby', 'Maggio', 'Dicembre', 1);
+INSERT INTO Vasche VALUES ('Sea', 'neonatale', 'Maggio', 'Dicembre', 1);
+INSERT INTO Vasche VALUES ('Galaxy', 'al chiuso', 'Dicembre', 'Agosto', 2);
+INSERT INTO Vasche VALUES ('Galaxy', 'olimpionica', 'Dicembre', 'Agosto', 5);
+INSERT INTO Vasche VALUES ('Galaxy', 'nuoto baby', 'Dicembre', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Galaxy', 'neonatale', 'Dicembre', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Luce', 'all’aperto', 'Settembre', 'Giugno', 2);
+INSERT INTO Vasche VALUES ('Luce', 'olimpionica', 'Settembre', 'Giugno', 3);
+INSERT INTO Vasche VALUES ('Gea', 'nuoto baby', 'Settembre', 'Giugno', 1);
+INSERT INTO Vasche VALUES ('Gea', 'neonatale', 'Settembre', 'Giugno', 1);
+INSERT INTO Vasche VALUES ('Sol', 'al chiuso', 'Giugno', 'Agosto', 4);
+INSERT INTO Vasche VALUES ('Sol', 'nuoto baby', 'Giugno', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Allegria', 'al chiuso', 'Settembre', 'Giugno', 3);
+INSERT INTO Vasche VALUES ('Allegria', 'nuoto baby', 'Settembre', 'Giugno', 1);
+INSERT INTO Vasche VALUES ('Tuffo', 'al chiuso', 'Settembre', 'Giugno', 2);
+INSERT INTO Vasche VALUES ('Tuffo', 'olimpionica', 'Settembre', 'Giugno', 4);
+INSERT INTO Vasche VALUES ('Navy', 'olimpionica', 'Giugno', 'Agosto', 3);
+INSERT INTO Vasche VALUES ('Navy', 'neonatale', 'Giugno', 'Agosto', 1);
+INSERT INTO Vasche VALUES ('Splash', 'al chiuso', 'Settembre', 'Luglio', 5);
+INSERT INTO Vasche VALUES ('Splash', 'olimpionica', 'Settembre', 'Luglio', 5);
+INSERT INTO Vasche VALUES ('Splash', 'nuoto baby', 'Settembre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Blue', 'al chiuso', 'Settembre', 'Luglio', 2);
+INSERT INTO Vasche VALUES ('Blue', 'olimpionica', 'Settembre', 'Luglio', 6);
+INSERT INTO Vasche VALUES ('Blue', 'neonatale', 'Settembre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Cristallino', 'al chiuso', 'Settembre', 'Luglio', 3);
+INSERT INTO Vasche VALUES ('Cristallino', 'neonatale', 'Settembre', 'Luglio', 1);
+INSERT INTO Vasche VALUES ('Sole', 'olimpionica', 'Settembre', 'Luglio', 5);
+INSERT INTO Vasche VALUES ('Sole', 'neonatale', 'Settembre', 'Luglio', 1);
+
+
+--
+-- Data for Name: iscritti; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Iscritti VALUES (2009, 'FBRRRT10M17F205Q');
+INSERT INTO Iscritti VALUES (2356, 'GLIMHL10P50F205I');
+INSERT INTO Iscritti VALUES (9087, 'TRNBNC00R23F205L');
+INSERT INTO Iscritti VALUES (4560, 'CTTSLV04R20F205Q');
+INSERT INTO Iscritti VALUES (8742, 'TRNLSS04H30D086P');
+INSERT INTO Iscritti VALUES (2583, 'CPPLRZ05A43F205E');
+INSERT INTO Iscritti VALUES (9654, 'NGRLNE06A59F205W'); 
+INSERT INTO Iscritti VALUES (4358, 'FRRNDR07R18F205E');
+INSERT INTO Iscritti VALUES (8652, 'LRLRNI06L41F205E');
+INSERT INTO Iscritti VALUES (8207, 'MDLMRC00P09F205R');
+INSERT INTO Iscritti VALUES (0987, 'FSTMSM80H19D086K');
+INSERT INTO Iscritti VALUES (4678, 'BRNLTR97A47F205C');
+INSERT INTO Iscritti VALUES (9645, 'PLMLNE93H59D086K');
+INSERT INTO Iscritti VALUES (2847, 'PLLGRG80L31F205Q');
+INSERT INTO Iscritti VALUES (9648, 'MNNMSS92S55F205S');
+INSERT INTO Iscritti VALUES (3573, 'MRNMLL74C31F205E');
+INSERT INTO Iscritti VALUES (5789, 'FRRLRI86M27F205C');
+INSERT INTO Iscritti VALUES (2267, 'FBBMTN89P61F205R');
+INSERT INTO Iscritti VALUES (1735, 'FRLLNR80L57F205D');
+INSERT INTO Iscritti VALUES (7482, 'FRRMTT98S01D086X');
+
+
+--
+-- Data for Name: iscrizioni; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Iscrizioni VALUES (09037, 2009, '2021-02-18');
+INSERT INTO Iscrizioni VALUES (09037, 2009, '2021-04-23');
+INSERT INTO Iscrizioni VALUES (03456, 2009, '2021-05-05');
+INSERT INTO Iscrizioni VALUES (23563, 2356, '2021-03-12');
+INSERT INTO Iscrizioni VALUES (75367, 9087, '2021-02-23');
+INSERT INTO Iscrizioni VALUES (36737, 4560, '2020-09-04');
+INSERT INTO Iscrizioni VALUES (48954, 8742, '2020-10-02');
+INSERT INTO Iscrizioni VALUES (07472, 2583, '2021-01-12');
+INSERT INTO Iscrizioni VALUES (07472, 9654, '2021-02-03'); 
+INSERT INTO Iscrizioni VALUES (98466, 9654, '2021-06-05'); 
+INSERT INTO Iscrizioni VALUES (77835, 9654, '2021-04-03'); 
+INSERT INTO Iscrizioni VALUES (69867, 4358, '2021-05-16');
+INSERT INTO Iscrizioni VALUES (58723, 8652, '2021-02-27');
+INSERT INTO Iscrizioni VALUES (58723, 8207, '2020-06-06');
+INSERT INTO Iscrizioni VALUES (74786, 0987, '2021-05-04');
+INSERT INTO Iscrizioni VALUES (59366, 0987, '2021-04-28');
+INSERT INTO Iscrizioni VALUES (75736, 0987, '2018-03-14');
+INSERT INTO Iscrizioni VALUES (74746, 4678, '2020-12-25');
+INSERT INTO Iscrizioni VALUES (89367, 9645, '2021-06-08');
+INSERT INTO Iscrizioni VALUES (89367, 2847, '2020-05-07');
+INSERT INTO Iscrizioni VALUES (79830, 9648, '2020-04-06');
+INSERT INTO Iscrizioni VALUES (46769, 3573, '2020-12-23');
+INSERT INTO Iscrizioni VALUES (56894, 5789, '2020-09-12');
+INSERT INTO Iscrizioni VALUES (70466, 2267, '2020-09-18');
+INSERT INTO Iscrizioni VALUES (69366, 1735, '2020-07-09');
+INSERT INTO Iscrizioni VALUES (69035, 7482, '2021-06-23');
+INSERT INTO Iscrizioni VALUES (40674, 7482, '2021-04-08');
+INSERT INTO Iscrizioni VALUES (06837, 7482, '2020-09-13');
+INSERT INTO Iscrizioni VALUES (07830, 7482, '2019-12-04');
+
+
+--
+-- Data for Name: medici; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Medici VALUES ('TRVRSL55M55F205C');
+INSERT INTO Medici VALUES ('CCCGGR50B09F205D');
+INSERT INTO Medici VALUES ('DNZMRZ93H23F205F');
+INSERT INTO Medici VALUES ('PLRPLA95A08F205G');
+INSERT INTO Medici VALUES ('LCCCST74P57F205F');
+
+
+--
+-- Data for Name: certificati; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Certificati VALUES (2009, 'TRVRSL55M55F205C', '2020-09-07');
+INSERT INTO Certificati VALUES (8742, 'TRVRSL55M55F205C', '2020-11-12');
+INSERT INTO Certificati VALUES (2009, 'TRVRSL55M55F205C', '2021-04-04');
+INSERT INTO Certificati VALUES (1735, 'CCCGGR50B09F205D', '2020-07-05');
+INSERT INTO Certificati VALUES (7482, 'CCCGGR50B09F205D', '2020-05-23');
+INSERT INTO Certificati VALUES (9645, 'DNZMRZ93H23F205F', '2021-01-30');
+INSERT INTO Certificati VALUES (2583, 'DNZMRZ93H23F205F', '2020-12-05');
+INSERT INTO Certificati VALUES (2267, 'DNZMRZ93H23F205F', '2020-08-08');
+INSERT INTO Certificati VALUES (4678, 'PLRPLA95A08F205G', '2020-02-02');
+INSERT INTO Certificati VALUES (0987, 'PLRPLA95A08F205G', '2020-03-09');
+INSERT INTO Certificati VALUES (3573, 'LCCCST74P57F205F', '2021-06-01');
+INSERT INTO Certificati VALUES (9087, 'LCCCST74P57F205F', '2021-05-03');
+
+
+--
+-- Data for Name: genitori; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Genitori VALUES ('CNTVRN80T31F205D');
+INSERT INTO Genitori VALUES ('MNLVND74P05F205J');
+INSERT INTO Genitori VALUES ('PGLCLL87D11F205J');
+INSERT INTO Genitori VALUES ('MZZFSC64P49F205Z');
+INSERT INTO Genitori VALUES ('CTTMLA74B60F205B');
+INSERT INTO Genitori VALUES ('FRLLNR80L57F205D');
+INSERT INTO Genitori VALUES ('FBBMTN89P61F205R');
+INSERT INTO Genitori VALUES ('FRRLRI86M27F205C');
+INSERT INTO Genitori VALUES ('MNNMSS92S55F205S');
+INSERT INTO Genitori VALUES ('PLLGRG80L31F205Q');
+INSERT INTO Genitori VALUES ('PLMLNE93H59D086K');
+
+
+--
+-- Data for Name: parentela; Type: TABLE DATA; Schema: piscina; Owner: postgres
+--
+INSERT INTO Parentela VALUES ('CNTVRN80T31F205D', 2009);
+INSERT INTO Parentela VALUES ('MNLVND74P05F205J', 2009);
+INSERT INTO Parentela VALUES ('PGLCLL87D11F205J', 2356);
+INSERT INTO Parentela VALUES ('CTTMLA74B60F205B', 4560);
+INSERT INTO Parentela VALUES ('FRLLNR80L57F205D', 8742);
+INSERT INTO Parentela VALUES ('FBBMTN89P61F205R', 2583);
+INSERT INTO Parentela VALUES ('PLLGRG80L31F205Q', 9654);
+INSERT INTO Parentela VALUES ('MNNMSS92S55F205S', 4358);
+INSERT INTO Parentela VALUES ('FRRLRI86M27F205C', 4358);
+INSERT INTO Parentela VALUES ('PLMLNE93H59D086K', 8652);
